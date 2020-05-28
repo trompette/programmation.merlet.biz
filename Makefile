@@ -6,4 +6,4 @@ help:
 
 .PHONY: deploy
 deploy:  ## Deploy latest changes from GitHub
-	@git pull https://github.com/trompette/programmation.merlet.biz master
+	@git pull --all --prune
