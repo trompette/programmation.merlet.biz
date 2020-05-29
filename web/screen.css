@@ -30,8 +30,8 @@ header img {
 }
 
 main {
-    border-bottom: 0.1em dashed #ccc;
-    border-top: 0.1em dashed #ccc;
+    border-bottom: 3px dashed #ccc;
+    border-top: 3px dashed #ccc;
     padding: 1em 0;
 }
 
@@ -43,7 +43,7 @@ main ul {
 }
 
 main ul li {
-    border: 0.1em dashed #ccc;
+    border: 3px dashed #ccc;
     border-top-right-radius: 1em;
     list-style: none;
     padding: 0.5em;
