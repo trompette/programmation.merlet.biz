@@ -6,4 +6,5 @@ help:
 
 .PHONY: deploy
 deploy:  ## Deploy latest changes from GitHub
-	@git pull --all --prune
+	@git fetch --all --prune
+	@git reset origin/master --hard
